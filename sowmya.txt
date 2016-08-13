@@ -1,0 +1,96 @@
+Login as Admin in Digital service hub, Click on Manage->images:
+
+
+1. When we Selected the provider and Account, If we change the provider then also the previously selected account name is viewed.
+2. After modifying the image  there is a message called "Image has been modified successfully" gets displayed. But the message keeps displaying even after performing other options on the same page. 
+3. Close button is not properly designed.
+
+
+
+
+
+
+Login as Admin in Digital service hub, Click on Create->Network Group:
+
+1. Without any change also if we give update, there is a message "Network Group is successfully updated".
+2. When we are not selecting any row there is a message called " Error Network group already exists." If we are selecting any row then also the same message called "Error Network group already exists." is shown, where we can't able to select any row.  
+5. If we select more than 5 row then the notification message is overlapped to the previous notification.
+
+
+Login as Admin in Digital service hub, Click on Manage->Network Group:
+
+1. For the data in which the networks has been Onboarded, there is a row selected by default. If we are removing the selected row and click on Update then it is updating. But After that if we select the particular account it is showing "NetworkGroup is temporarily unavailable."
+
+
+Login as Admin in Digital service hub, Click on Reports->Utilisation->VM tracking report:
+
+1. Select the provider, account and subscription.For the accounts which carrries no data should display the message " Data Currently Unavailable for The Selected Subscription", where for some accounts graph is created with no data.
+2. If we click on download button for those accounts which has no data, then there is "400" error message shown. 
+3. The "400" error is visible in the page if we are doing other tasks also.
+
+
+
+
+
+Login as Admin in Digital service hub, Click on Reports->Utilisation->Image tracking report:
+
+1. If we select the particular provider,account,subscription and state there is graph created where in Y-Axis there is number -1 and 1 plotted. Inbetween this one image is created without any data.
+
+
+
+
+
+
+Login as Admin in Digital service hub, Click on Manage->Virtual Machine:
+1. There is no column in the field specifying the provider whether the VM is AWS/AZURE.
+
+Login as Subscription owner in Digital service hub, Click on Reports->Utilisation->Image tracking report:
+1. When we select one subscription in the Dashboard and then if we go to image tracking report, for the selected subscription in dashboard the graph is created. But instead of showing the particular subscription's account, all accounts shown in accounts field. 
+
+
+
+
+
+
+
+
+Reports:
+Monthly Metering Report:This report gives the uptime value in terms of Amazon units and can be downloaded in CSV format.
+Image Tracking Report:This report can be used to track the images with different states. This report can be downloaded in CSV format.
+VM Tracking Report:This report can be used to monitor and track the Developer Stations with different states. This report can be downloaded in CSV format.
+Monthly Utilization Report:This report provides the comparison between actual uptime of the VM's in hours and the AWS uptime hours as calculated by Amazon in a graphical representation.
+License Report:	This report gives the licenses usage and can be downloaded in CSV format.
+CPU Performance Report:This report can be used to view the CPU utilization of the VM's. Each instance will have three bar graphs, each indicating the Minimum, Average and Maximum CPU % utilizations in different colours.
+RDS Metrics Report:This report can be used to view the RDS Metrics of the VM's. Each instance will have three bar graphs, each indicating the Minimum, Average and Maximum of the specified RDS metrics 3 in different colours.
+Monthly Autosnapshot Report:This report provides the Auto-Snapshot creation Failure Details on Monthly basis can be downloaded in CSV format.
+Budget LOB Report:This report provides the comparision between the actual budget set and the running cost as dollars at the LOB level, that shows graphs for the subscriptions grouped under LOB in graphical representation and can be downloaded in CSV format.
+Capacity Report:This report gives the Capacity details in VPC-subnet level and can be downloaded in CSV format.
+KPI Report:This report gives the KPI_REPORT details can be downloaded in CSV format.
+AuditTrails Report:This report gives the AuditTrails Log details can be downloaded in CSV format.
+Budget Report:This report gives the Budget details and can be downloaded in CSV format.
+path of cofig file
+
+
+/opt/application/tomcat-axis/bin/config
+
+Account Creation:
+Login as admin to DSH
+When we try to create AWS account, if we are giving the space for "Access key" the account has been created successfully with different subscription ID in database.
+
+
+
+
+DevOps:
+Path:
+https://github.com/sowmya03/hello-world.git
+
+
+
+
+
+
+
+
+
+
+
